@@ -22,7 +22,7 @@ export default function DestinationPage() {
         <div className="flex flex-col lg:flex-row gap-10 items-center lg:items-start">
           <div className="lg:w-1/2 p-10 lg:p-20 ">
             <Image
-              src={`/destination/image-${filter}.png`}
+              src={`/destination/image-${filter.toLowerCase}.png`}
               width={500}
               height={500}
               alt={`${filter}`}
